@@ -1,5 +1,21 @@
 
 # installation des modules
 
-Se placer à la racine de du projet 
+Se placer à la racine de du projet à la ou le fichier manage.py se trouve
 pip install -r requierements.txt 
+
+# Pour tester l'API  en local 
+python manage.py runserver  (aller sur 127.0.0.1:8000)
+
+les differents endpoints sont : 
+
+    "http://127.0.0.1:8000/clients/" # liste des clients associés aux achats
+    "http://127.0.0.1:8000/achats/" # lsite des achats assoicés aux clients
+    http://127.0.0.1:8000/prixdevente/?query =  nom d'un client  // voir les prix les achats d'un client
+    http://127.0.0.1:8000/admin pour voir la page d'administration de API  (username : ngser password : 1234)
+    
+    # pour tester l'API en production :
+    L'API est heberger est hebergé ici :  http://ngser.pythonanywhere.com/
+    
+ 
+
